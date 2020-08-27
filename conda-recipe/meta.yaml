@@ -23,7 +23,8 @@ requirements:
     - python >=3.7
   run:
     - python >=3.7
-    - pytorch >=1.0
+    - cudatoolkit
+    - pytorch >=1.4.0
 
 about:
   home: https://github.com/fynnbe/pytorch-msssim
